@@ -1,0 +1,11 @@
+* only count blacks:
+	score dependent on the black numbers in the original image, no universal threshold
+
+* count blacks and whites:
+	some whites in the corner give too many scores
+
+* divided by the overlapped area:
+	the smaller the overlapped area is, the higher score it gets
+
+* same color numbers divided by different color numbers:
+	highly dependent on the overlapped area
